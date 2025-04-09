@@ -1,7 +1,7 @@
 [build]
   functions = "netlify-functions"
   command = "echo 'No build command needed'"
-
+  publish = "/"
 [[redirects]]
   from = "/*"
   to = "/index.js"
